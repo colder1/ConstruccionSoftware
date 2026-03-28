@@ -1,0 +1,136 @@
+body {
+    background-color: rgb(97, 97, 97);
+    font-family: 'Roboto', sans-serif;
+}
+
+.app-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.calculator-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+h1 {
+    color: #b63030;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-container {
+    width: 300px;
+    min-height: 600px;
+    padding: 2%;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: space-between;
+    background-color: #000000;
+}
+
+.main-screen {
+    height: 130px;
+    border-radius: 10px;
+    font-size: 48px;
+    background-color: #000000;
+    color: #f4f4f4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 10px 15px;
+}
+
+.btn {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-size: 36px;
+    background-color: #ffffff;
+    color: rgb(147, 24, 24);
+}
+
+.btn-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.btn-gray {
+    background-color: #c8c8c8;
+    color: black;
+}
+
+.btn-white {
+    background-color: #ffffff;
+}
+
+.btn-dark {
+    background-color: #333;
+}
+
+.zero {
+    width: 160px;
+    border-radius: 40px;
+}
+
+.history-box {
+    width: 500px;
+    min-height: 600px;
+    background-color: #353535;
+    border-radius: 25px;
+    padding: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.history-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.history-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.clear-history-btn {
+    background: none;
+    border: none;
+    color: #e62222;
+    cursor: pointer;
+}
+
+#history {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.history-item {
+    background-color: #3e3e3e;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.history-operation {
+    color: #fff;
+    font-size: 24px;
+}
+
+.history-result {
+    font-size: 28px;
+    font-weight: bold;
+    color: #f4f4f4;
+}
